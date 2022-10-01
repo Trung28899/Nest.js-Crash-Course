@@ -51,4 +51,19 @@ This AppService is available because in the app.module.ts file, we specify the A
 
 Video: https://www.youtube.com/watch?v=F_oOtaxb0L8&ab_channel=Academind
 
-Continue at 40:09
+Video completed
+
+Implemented a CRUD product api for this
+
+try to send requests to these routes and see the files in ./src/products
+to see how it works
+
+POST('localhost:8000/products') > add a product
+GET('localhost:8000/products') > get all products
+GET('localhost:8000/products/:id') > get a single product
+PATCH('localhost:8000/products/:id') > update product details
+DELETE('localhost:8000/products/:id') > delete a product
+
+Next video:
+
+https://www.youtube.com/watch?v=ulfU5vY6I78&ab_channel=Academind
